@@ -30,7 +30,7 @@ hold on
 kmax = 10000;
 tol = 1e-7;
 [raiz, h]= biseccion(g, 0.5, 1.5, kmax, tol);
-printf("x/20 interseca a f en x=%.7f\n", raiz);
+printf("x/20 interseca a f en x=%.10f\n", raiz);
 
 plot(xp, f(xp));
 hold on
